@@ -11,15 +11,15 @@ public class Timer : MonoBehaviour
     float timeLeft;
     public GameObject timesUpText;
     public TextMeshProUGUI wordCountText;
-    ///public GameObject nextButton;
+    public GameObject retryButton;
     public Typer typer;
     public static bool boo_stop;
     
     void Start()
     {
         timesUpText.SetActive(false);
+        retryButton.gameObject.SetActive(false);
         wordCountText.gameObject.SetActive(false);
-        ///nextButton.gameObject.SetActive(false);
         timerBar = GetComponent<Image>();
         timeLeft = maxTime;
     }
@@ -32,16 +32,16 @@ public class Timer : MonoBehaviour
             {
                 timeLeft -= Time.deltaTime;
                 timerBar.fillAmount = timeLeft / maxTime;
-                ///nextButton.gameObject.SetActive(true);
+                
             }
             else
             {
                 timesUpText.SetActive(true);
                 Typer.boo_gameOver = true;
                 wordCountText.text = "Words left: " + typer.int_wordCount;
-                wordCountText.gameObject.SetActive(true);                
+                wordCountText.gameObject.SetActive(true);
                 Time.timeScale = 0;
-                
+                retryButton.gameObject.SetActive(true);
             }
         }
     }
