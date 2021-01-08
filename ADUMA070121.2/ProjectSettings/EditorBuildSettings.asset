@@ -9,20 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/SettingMenu.unity
-    guid: 5cfcddbcdff738a4a909338ca6493178
-  - enabled: 0
-    path: 
-    guid: 7f3ff79284dded84eb79a5b562237497
+    path: Assets/Scenes/Tutorial.unity
+    guid: 6829ea353f83af444a5e50099ba61167
+  - enabled: 1
+    path: Assets/Scenes/PlotScene.unity
+    guid: 458b41208ef82274f979ca4920f3e47f
   - enabled: 1
     path: Assets/Scenes/FirstLevel.unity
     guid: e34acf35a62169949990f3667588d453
   - enabled: 1
-    path: Assets/Scenes/SecondLevel.unity
-    guid: ab18e8bc519195a40bddee722e37955a
-  - enabled: 1
     path: Assets/Scenes/Wining1.unity
     guid: edd8d50cc6e787e4b83cddd0c0175ce3
+  - enabled: 1
+    path: Assets/Scenes/SecondLevel.unity
+    guid: ab18e8bc519195a40bddee722e37955a
   - enabled: 1
     path: Assets/Scenes/Losing1.unity
     guid: 96f5fda8036d7f440b48f13de3749a65
