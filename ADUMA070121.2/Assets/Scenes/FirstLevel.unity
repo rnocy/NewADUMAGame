@@ -1317,15 +1317,15 @@ MonoBehaviour:
   - '%$@('
   - filthyhuman
   - bowtome
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  int_wordCount: 10
+  - saveme
+  - helpme
+  - I'minpain
+  - nowayout
+  - bringsforthdoomday
+  - meomeowmeow
+  - tranducbo
+  - lmaohaha
+  int_wordCount: 5
   winText: {fileID: 420482044}
   scr_time: {fileID: 1921189218}
   nextButton: {fileID: 1241565262}
