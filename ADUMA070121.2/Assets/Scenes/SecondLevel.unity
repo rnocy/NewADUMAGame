@@ -1575,11 +1575,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1228422664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a53e2ccc4233e34b8db7a8b19d43b6c, type: 3}
+  m_Script: {fileID: 11500000, guid: dbc83950831b2704eb459f759186241e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   countDown: {fileID: 1721489429}
-  scr_ty: {fileID: 0}
+  scr_ty: {fileID: 1429188631}
 --- !u!1 &1241826279
 GameObject:
   m_ObjectHideFlags: 0
@@ -1993,11 +1993,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3a10fe160599ea45af8920ffe997d63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTime: 5
+  maxTime: 30
   timesUpText: {fileID: 426691925}
   wordCountText: {fileID: 1563206899}
   retryButton: {fileID: 1258265706}
-  typer: {fileID: 0}
+  typer: {fileID: 1429188631}
 --- !u!114 &1293962771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2084,29 +2084,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordOutput: {fileID: 1633040396}
   arrStr_bank:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Hello
+  - Bello
+  - Bella
+  - Balla
+  - Jalla
   int_wordCount: 5
   winText: {fileID: 1078955199}
-  scr_time: {fileID: 0}
+  scr_time: {fileID: 1293962770}
   nextButton: {fileID: 1576613496}
 --- !u!224 &1429188632
 RectTransform:
@@ -2445,6 +2430,21 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1576613500}
           m_MethodName: ClickSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1576613498}
+          m_MethodName: Next
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

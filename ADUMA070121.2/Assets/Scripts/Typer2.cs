@@ -15,7 +15,7 @@ public class Typer2 : MonoBehaviour
     public int int_wordCount;
     public TextMeshProUGUI winText;
     int int_correct;
-    public Timer scr_time;
+    public Timer2 scr_time;
     public GameObject nextButton;
 
 
@@ -45,7 +45,7 @@ public class Typer2 : MonoBehaviour
         }
         else
         {
-            Timer.boo_stop = true;
+            Timer2.boo_stop = true;
             Debug.Log("Win");
             winText.gameObject.SetActive(true);
             nextButton.gameObject.SetActive(true);

@@ -12,7 +12,7 @@ public class Timer2 : MonoBehaviour
     public GameObject timesUpText;
     public TextMeshProUGUI wordCountText;
     public GameObject retryButton;
-    public Typer typer;
+    public Typer2 typer;
     public static bool boo_stop;
 
     void Start()

@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DelayStart : MonoBehaviour
+public class DelayStart2 : MonoBehaviour
 {
     public GameObject countDown;
     public Typer2 scr_ty;
-    
+
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine("StartDelay");
     }
 
-    IEnumerator StartDelay ()
+    IEnumerator StartDelay()
     {
         Time.timeScale = 0;
         float pauseTime = Time.realtimeSinceStartup + 4f;
