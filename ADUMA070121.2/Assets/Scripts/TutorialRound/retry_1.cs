@@ -8,7 +8,7 @@ public class retry_1 : MonoBehaviour
  
         public void Retry()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene("TutorialRound");
         }
 
 

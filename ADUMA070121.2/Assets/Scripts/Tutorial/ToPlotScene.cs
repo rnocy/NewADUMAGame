@@ -16,7 +16,7 @@ public class ToPlotScene : MonoBehaviour
     public void Next()
     {
 
-        StartCoroutine(loadPlot("PlotScene"));
+        StartCoroutine(loadPlot("TutorialRound"));
 
     }
 

@@ -24,4 +24,6 @@ public class DelayStart : MonoBehaviour
         scr_ty.enabled = true;
         scr_ty.fn_init();
     }
+
+    
 }

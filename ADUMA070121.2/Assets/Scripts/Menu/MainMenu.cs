@@ -7,6 +7,9 @@ public class MainMenu : MonoBehaviour
 {
     public Animator transition;
     public float transitionTime = 1f;
+    public AudioSource mySFX;
+    public AudioClip hoverSFX;
+    public AudioClip clickSFX;
 
     void Start()
     {
@@ -34,5 +37,15 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void HoverSound()
+    {
+        mySFX.PlayOneShot(hoverSFX);
+    }
+
+    public void ClickSound()
+    {
+        mySFX.PlayOneShot(clickSFX);
     }
 }

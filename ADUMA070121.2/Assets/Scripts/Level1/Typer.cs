@@ -10,7 +10,7 @@ public class Typer : MonoBehaviour
     //add a wordbank
     public Text wordOutput = null;
     private string remainingWord = string.Empty;
-    private string currentWord = "muffins";
+    private string currentWord;
     public string[] arrStr_bank;
     public static bool boo_gameOver;
     public int int_wordCount;
