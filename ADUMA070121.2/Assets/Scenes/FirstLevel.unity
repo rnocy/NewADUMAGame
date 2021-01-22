@@ -1322,10 +1322,15 @@ MonoBehaviour:
   - I'minpain
   - nowayout
   - bringsforthdoomday
-  - meomeowmeow
-  - tranducbo
-  - lmaohaha
-  int_wordCount: 5
+  - tomakeHIMproud
+  - Dark Lord
+  - youCAN'Twin
+  - ohno
+  - sostrongmuchpower
+  - I'mlosing?
+  - itcan'tbe
+  - I'mNOTdoneyet
+  int_wordCount: 10
   winText: {fileID: 420482044}
   scr_time: {fileID: 1921189218}
   nextButton: {fileID: 1241565262}

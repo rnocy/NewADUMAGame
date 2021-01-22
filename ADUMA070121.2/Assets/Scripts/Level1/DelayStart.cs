@@ -5,7 +5,7 @@ using UnityEngine;
 public class DelayStart : MonoBehaviour
 {
     public GameObject countDown;
-    public Typer2 scr_ty;
+    public Typer scr_ty;
     
     // Start is called before the first frame update
     void Start()
