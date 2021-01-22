@@ -968,7 +968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countDown: {fileID: 1545468296}
-  scr_ty: {fileID: 0}
+  scr_ty: {fileID: 1026870582}
 --- !u!1 &863972319
 GameObject:
   m_ObjectHideFlags: 0
@@ -2123,6 +2123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04d2df95f8300f84a88b17bfd760b3ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: FirstLevel
 --- !u!114 &1420768544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2321,7 +2322,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1420768543}
-        m_MethodName: Retry
+        m_MethodName: RePlay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

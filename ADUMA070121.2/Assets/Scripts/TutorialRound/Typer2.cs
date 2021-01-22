@@ -23,6 +23,8 @@ public class Typer2 : MonoBehaviour
     {
         winText.gameObject.SetActive(false);
         nextButton.gameObject.SetActive(false);
+        boo_gameOver = false;
+        Timer2.boo_stop = false;
     }
 
     public void fn_init()
