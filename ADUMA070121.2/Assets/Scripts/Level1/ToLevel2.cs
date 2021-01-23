@@ -7,6 +7,6 @@ public class ToLevel2 : MonoBehaviour
 {
     public void ToLevelTwo()
     {
-        SceneManager.LoadScene("SecondLevel");
+        SceneManager.LoadScene("FirstLevel");
     }
 }

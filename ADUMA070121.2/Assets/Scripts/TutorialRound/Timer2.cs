@@ -7,7 +7,7 @@ using TMPro;
 public class Timer2 : MonoBehaviour
 {
     Image timerBar;
-    public float maxTime = 6f;
+    public float maxTime = 5f;
     float timeLeft;
     public GameObject timesUpText;
     public TextMeshProUGUI wordCountText;
