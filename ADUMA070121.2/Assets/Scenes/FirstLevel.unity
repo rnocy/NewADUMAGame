@@ -970,6 +970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countDown: {fileID: 1545468296}
   scr_ty: {fileID: 1026870582}
+  menuButton: {fileID: 1217950336}
 --- !u!1 &863972319
 GameObject:
   m_ObjectHideFlags: 0
@@ -1257,7 +1258,7 @@ MonoBehaviour:
   - I'mlosing?
   - itcan'tbe
   - I'mNOTdoneyet
-  int_wordCount: 15
+  int_wordCount: 18
   winText: {fileID: 420482044}
   scr_time: {fileID: 1921189218}
   nextButton: {fileID: 1241565262}

@@ -18,20 +18,24 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-       
-       StartCoroutine(loadTut("Tutorial"));
-        
+        //SceneManager.LoadScene("Tutorial");
+        StartCoroutine(loadTut("Tutorial"));
+
     }
 
-    
+
 
     IEnumerator loadTut(string levelIndex)
     {
-        transition.SetTrigger("Start");
+       // Debug.Log("Load tutorial");
+        transition.SetTrigger("start");
         transition.gameObject.SetActive(true);
+        //Debug.Log("Load tutorial-1");
         yield return new WaitForSeconds(1);
+        //Debug.Log("Load tutorial-2");
         SceneManager.LoadScene(levelIndex);
-        
+        //Debug.Log("Load tutorial-3");
+
     }
 
     public void QuitGame()

@@ -6,11 +6,14 @@ public class DelayStart2 : MonoBehaviour
 {
     public GameObject countDown;
     public Typer2 scr_ty;
+    public GameObject menuButton2;
 
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine("StartDelay");
+        menuButton2.gameObject.SetActive(false);
+
     }
 
     IEnumerator StartDelay()
@@ -23,5 +26,6 @@ public class DelayStart2 : MonoBehaviour
         Time.timeScale = 1;
         scr_ty.enabled = true;
         scr_ty.fn_init();
+        menuButton2.gameObject.SetActive(true);
     }
 }
