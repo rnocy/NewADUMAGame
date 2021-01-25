@@ -10,17 +10,20 @@ public class DialogueManager : MonoBehaviour
     private int index;
     public float typingSpeed;
     public GameObject continueButton;
+    public GameObject TryOutButton;
 
     void Start()
     {
         StartCoroutine(Type());
+         TryOutButton.gameObject.SetActive(false);
     }
 
-    void Update ()
+    void Update()
     {
         if (textDisplay.text == sentences[index])
         {
             continueButton.gameObject.SetActive(true);
+           
         }
     }
 
@@ -33,10 +36,10 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void NextSentence ()
+    public void NextSentence()
     {
         continueButton.gameObject.SetActive(false);
-        if(index < sentences.Length - 1)
+        if (index < sentences.Length - 1)
         {
             index++;
             textDisplay.text = "";
@@ -45,6 +48,9 @@ public class DialogueManager : MonoBehaviour
         else
         {
             textDisplay.text = "";
-        }    
+            TryOutButton.gameObject.SetActive(true);
+        }
     }
+
+
 }

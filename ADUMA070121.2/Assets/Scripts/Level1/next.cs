@@ -7,6 +7,6 @@ public class next : MonoBehaviour
 {
     public void Next()
     {
-        SceneManager.LoadScene("Wining1");
+        SceneManager.LoadScene("Wining2");
     }
 }

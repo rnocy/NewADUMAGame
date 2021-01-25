@@ -10,11 +10,7 @@ public class Menu_back : MonoBehaviour
     {
         currentScene = SceneManager.GetActiveScene().buildIndex;
         PlayerPrefs.SetInt("SavedScene", currentScene);
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Initialization");
     }
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
-
+    
 }
