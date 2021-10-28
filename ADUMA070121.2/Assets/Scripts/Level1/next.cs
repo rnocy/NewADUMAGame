@@ -7,6 +7,11 @@ public class next : MonoBehaviour
 {
     public void Next()
     {
+        SceneManager.LoadScene("Wining1");
+    }
+
+    public void NextNext()
+    {
         SceneManager.LoadScene("Wining2");
     }
 }

@@ -919,11 +919,11 @@ MonoBehaviour:
   textDisplay: {fileID: 1164266105}
   sentences:
   - Hi I'm Kean the Exorcist. I'll be guiding you through this game prototype.
-  - You'll will take on the role of 7 demons, and your goal is to defeat us in a battle
+  - You will take on the role of 7 demons, and your goal is to defeat us in a battle
     of exorcism.
   - You'll be typing against time, and try to avoid errors as much as possible.
-  - For each error you'll lose around 40% of your time spand but will only receive
-    aroun 20% if you got a word corrected.
+  - For each error you'll lose around 40% of your timespan but will only receive around
+    20% if you got a word corrected.
   - So skipping this tutorial is not a good idea, though I don't mind seeing you lose.
   - I really don't want to be here but the Creator kinda lazy to invent more NPC,
     so it's me versus you for this round.
